@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Comentar from '../components/Comentar'
+import Feature from '../components/Feature'
+import Theme from '../components/Theme'
+import Paket from '../components/Paket'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -14,6 +19,11 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+      <Comentar />
+      <Feature />
+      <Theme />
+      <Paket />
+      <Footer />
   
     </div>
   )
