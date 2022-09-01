@@ -9,22 +9,22 @@ const Navbar = () => {
     }
 
     return (
-        <div className='w-full h-20 bg-putih'>
-            <div className='flex justify-between items-center w-full h-full px-24'>
+        <div className='w-full h-20 bg-white'>
+            <div className='flex justify-between items-center w-full h-full md:px-24 xs:px-5'>
                 <img src="/garis.png" className='absolute left-0 top-0' />
                 <h3 className='font-normal font-display text-xl cursor-pointer'>Weddin<span className='font-title font-light italic text-xl'>Story</span></h3>
                 <div className='flex items-center font-display'>
                     <ul className='hidden md:flex text-[#121212] text-opacity-60 leading-4 cursor-pointer'>
-                        <Link href='/'>
+                        <Link href='/#beranda'>
                             <li className='ml-10 text-sm hover:border-b'>Beranda</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#fitur'>
                             <li className='ml-10 text-sm hover:border-b'>Fitur</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#katalog'>
                             <li className='ml-10 text-sm hover:border-b'>Katalog</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#kontak'>
                             <li className='ml-10 text-sm hover:border-b'>Kontak</li>
                         </Link>
                     </ul>
@@ -52,16 +52,16 @@ const Navbar = () => {
                 </div>
                 <div className='pt-2 flex flex-col'>
                     <ul className='cursor-pointer'>
-                        <Link href='/'>
+                        <Link href='/#beranda'>
                         <li className='pt-10 text-xl font-display text-[#121212] text-opacity-60 hover:border-b'>Beranda</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#fitur'>
                         <li className='pt-10 text-xl font-display text-[#121212] text-opacity-60 hover:border-b'>Fitur</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#katalog'>
                         <li className='pt-10 text-xl font-display text-[#121212] text-opacity-60 hover:border-b'>Katalog</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#kontak'>
                         <li className='pt-10 text-xl font-display text-[#121212] text-opacity-60 hover:border-b'>Kontak</li>
                         </Link>
                     </ul>

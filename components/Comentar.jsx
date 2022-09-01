@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comentar = () => {
   return (
-    <div className='relative w-full h-full bg-putih'>
+    <div className='relative w-full h-full bg-white mt-10 px-[100px] md:block xs:hidden'>
       <img src="/right.png" className='absolute -top-6 right-0' />
           <div className='flex justify-around'>
             <div className='bg-[#F9F9F9] h-[290px] w-[1450px] rounded-[20px] flex flex-row items-center relative'>
@@ -45,7 +45,7 @@ const Comentar = () => {
                   </div>
                 </div>
                 <div className='flex justify-end items-center'>
-                      <div className='w-[48px] h-[48px] rounded-full bg-white flex items-center justify-center shadow-lg cursor-pointer -mr-44 mb-14'>
+                      <div className='w-[48px] h-[48px] rounded-full bg-white flex items-center justify-center shadow-lg cursor-pointer -mr-40 mb-14'>
                         <img src="/kanan.png"/>
                       </div>
                     </div>

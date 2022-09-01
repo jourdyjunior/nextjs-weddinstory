@@ -2,17 +2,17 @@ import React from 'react'
 
 const Paket = () => {
     return (
-        <div className='w-full h-full bg-putih'>
+        <div  className='w-full h-full bg-white'>
             <div className='w-full mt-auto'>
                 <div className='flex mt-[180px] flex-col text-center'>
                     <h1 className='font-body text-5xl '>Paket Invitation</h1>
                     <p className='font-display text-xl mt-9'>Rencanakan undangan terbaikmu bersama kami</p>
                 </div>
-                <div className='flex flex-row justify-around items-center mt-[70px] md:flex-row xs:flex-col xs:gap-5'>
+                <div className='flex flex-row justify-around items-center mt-[70px] md:flex-row xs:flex-col xs:gap-14 md:px-[100px] xs:px-5'>
 
                 {/*  PAKET 1 */}
 
-                    <div className='w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px] relative'>
+                    <div className='md:w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px] relative xs:w-full'>
                         <div className='w-[104px] h-[104px] rounded-full absolute bg-[#E1A01E] flex justify-center text-center items-center right-2 -top-16'>
                             <p className='font-display text-xl font-semibold text-[#252324]'>Best<br />Seller</p>
                         </div>
@@ -83,7 +83,7 @@ const Paket = () => {
 
                     {/* PAKET 2 */}
 
-                    <div className='w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px]'>
+                    <div className='md:w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px] xs:w-full'>
                         <div className='text-center'>
                             <h2 className='font-body text-3xl p-[30px] font-normal text-[#121212] text-opacity-80'>Paket Deluxe</h2>
                             <h1 className='font-display text-[50px] text-[#121212] text-opacity-80'>Rp. 300.000</h1>
@@ -151,7 +151,7 @@ const Paket = () => {
 
                     {/* PAKET 3 */}
 
-                    <div className='w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px] '>
+                    <div className='md:w-[393px] h-[768px] bg-[#F9F9F9] flex flex-col rounded-[20px] xs:w-full'>
                         <div className='text-center'>
                             <h2 className='font-body text-3xl p-[30px] font-normal text-[#121212] text-opacity-80'>Paket Basic</h2>
                             <h1 className='font-display text-[50px] text-[#121212] text-opacity-80'>Rp. 175.000</h1>
